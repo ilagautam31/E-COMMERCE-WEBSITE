@@ -754,6 +754,9 @@ marquee{
     color:black;
 }
 /* cart page */
+#cart{
+    overflow-x:auto;
+}
 #cart table{
     width:100%;
     border-collapse:collapse;
@@ -931,5 +934,11 @@ marquee{
 }
 #newsletter .form{
  width:70%;
+}
+#form-details {
+    padding: 40px;
+}
+#form-details form {
+    width: 55%;
 }
 }
